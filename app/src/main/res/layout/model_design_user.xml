@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/userNameTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name:Mehedi Hasan"
+                    android:textSize="20sp"
+                    android:padding="10dp"/>
+                <TextView
+                    android:id="@+id/userPhoneTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone:01742711184"
+                    android:textSize="20sp"
+                    android:padding="10dp"/>
+                <TextView
+                    android:id="@+id/userAgeTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Age:22"
+                    android:textSize="20sp"
+                    android:padding="10dp"/>
+
+
+
+</LinearLayout>
